@@ -1,0 +1,55 @@
+.text{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+margin:10px  ;
+}
+.text button{
+  
+    padding: 5px;
+    width: 50px;
+    border: none;
+    background-color: rgb(204, 70, 70);
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+.text h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-right: 10px;
+
+}
+.mom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+  background-color: rgb(92, 168, 92);
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+}
+.mom input{
+
+    width: 400px;
+padding: 10px 10px;
+
+}
+.mom h1{
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+
+
+}
+.mom  button{
+    border: none;
+    width: 205px;
+padding:10px ;
+border-radius: 20px;
+
+    margin-top: 30px;
+}
